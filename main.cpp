@@ -7,12 +7,8 @@ int main(){
     std::cout<<"Digite a sua idade: "<<std::endl;
     std::cin>>idade;
 
-    if(idade >= 18){
-        std::cout<<"Você é maior de idade!"<<std::endl;
-    }else{
-        std::cout<<"Você é menor de idade!!"<<std::endl;
+    if(idade <= 0){
+        std::cout<<"Idade inválida!"<<std::endl;
     }
-
-
 return 0;
 }
