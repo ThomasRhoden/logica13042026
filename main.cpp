@@ -15,8 +15,10 @@ int main(){
         std::cout<<"Você é uma criança!"<<std::endl;
     }else if(idade <= 17){
         std::cout<<"Você é um adolescente!"<<std::endl;
-    }else{
+    }else if(idade <= 60){
         std::cout<<"Você é um adulto!"<<std::endl;
+    }else{
+        std::cout<<"Você é um sênior!"<<std::endl;
     }
 
 
